@@ -1,0 +1,15 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class  Affiliate{
+-String name
+-String apellido
+-Date fechaNacmientp
+-int nroAfiliado
+-int INITIAL = 1000
+-int LAST
++Affiliate(String nombre, String apellido, Date fechaNacimiento)
+-int getAndIncrement()
+}
+
+@enduml
